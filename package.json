@@ -1,0 +1,8 @@
+{
+  "name": "chakroun-benzcar",
+  "version": "1.0.0",
+  "description": "Site de location de voitures avec réservation WhatsApp et administration",
+  "main": "server.js",
+  "scripts": {"start":"node server.js","dev":"node --watch server.js"},
+  "dependencies": {"better-sqlite3":"^11.8.1","dotenv":"^16.4.7","express":"^4.21.2","express-session":"^1.18.1","helmet":"^8.0.0"}
+}
